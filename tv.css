@@ -84,7 +84,7 @@ header {
 }
 
 .banner img {
-    width: 100%;
+    width: 50%;
     border-radius: 10px;
 }
 
@@ -158,9 +158,13 @@ footer {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    width: 300px;
+    width: 320px;
     text-align: center;
     position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    overflow: hidden; 
 }
 
 .login-form input {
@@ -169,6 +173,7 @@ footer {
     margin: 10px 0;
     border-radius: 5px;
     border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
 .login-form button {
@@ -179,6 +184,7 @@ footer {
     cursor: pointer;
     border-radius: 5px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .login-form button:hover {

@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="tv.css">
 </head>
 <body>
-    <!-- Thanh điều hướng trên cùng -->
     <header>
         <div class="header-container">
             <div class="logo">
-                <img src="logo.png" alt="Logo Thư viện">
+                <img src="assets/logo.png" alt="Logo Thư viện">
             </div>
             <div class="search-bar">
                 <form id="search-form">
@@ -24,8 +23,6 @@
             </div>
         </div>
     </header>
-
-    <!-- Form đăng nhập -->
     <div id="loginForm" class="login-form">
         <div class="login-form-container">
             <span onclick="closeLoginForm()" class="close">&times;</span>
@@ -39,8 +36,6 @@
             </form>
         </div>
     </div>
-
-    <!-- Bố cục chính -->
     <div class="main-container">
         <aside class="sidebar">
             <ul>
@@ -54,12 +49,28 @@
 
         <section class="content">
             <div class="banner">
-                <img src="" alt="Banner sách">
+                <img src="assets/banner.jpg" alt="Banner sách">
             </div>
             <div class="book-section">
                 <h2>Sách mới cập nhật</h2>
                 <div class="book-list" id="search-results">
-                    <!-- Kết quả tìm kiếm sẽ được hiển thị ở đây -->
+                    <div class="book-item">
+                        <img src="assets/book1.jpg" alt="Bìa sách 1">
+                        <h3>Tên sách 1</h3>
+                        <p>Tác giả: Tác giả A</p>
+                        <p>Năm xuất bản: 2023</p>
+                    </div>
+                    <div class="book-item">
+                        <img src="assets/book2.jpg" alt="Bìa sách 2">
+                        <h3>Tên sách 2</h3>
+                        <p>Tác giả: Tác giả B</p>
+                        <p>Năm xuất bản: 2022</p>
+                    </div>
+                    <div class="book-item">
+                        <img src="assets/book3.jpg" alt="Bìa sách 3">
+                        <h3>Tên sách 3</h3>
+                        <p>Tác giả: Tác giả C</p>
+                        <p>Năm xuất bản: 2021</p>
                 </div>
             </div>
         </section>
